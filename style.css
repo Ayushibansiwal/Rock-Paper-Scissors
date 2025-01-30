@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header nav{
+    height:60px;
+    width:100%;
+    background-color:black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color:white ;
+    font-size:30px;
+}
+main .imagesDiv{
+    /* background-color: blanchedalmond; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:30px;
+}
+main .imagesDiv img{
+    height:100px;
+    width: 100px;
+    /* background-color: aquamarine; */
+}
+.imgDiv{
+    /* background-color: chartreuse; */
+    height:160px;
+    width:160px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;   
+    margin-right: 40px;
+}
+main .imagesDiv #img1:hover{
+    background-color: rgba(168, 75, 255, 0.694) ;
+}
+main .imagesDiv #img2:hover{
+    background-color:  rgb(116, 206, 255);
+}
+main .imagesDiv #img3:hover{
+    background-color: pink ;
+}
+button{
+    height:50px;
+    width:100px;
+    border :3px solid black ;
+    border-radius : 15px;
+    font-size:20px;
+    font-weight: 500;
+}
+.options{
+    /* background-color: blue; */
+    margin-top:20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:6rem;
+}
+#btn1{
+    background-color: rgba(168, 75, 255, 0.694);
+}
+#btn2{
+    background-color: rgb(116, 206, 255);
+}#btn3{
+    background-color: pink;
+}
+h2{
+    font-size:30px;
+    font-weight: 800;
+}
+.scores{
+    display: flex;
+    /* background-color: aqua; */
+    margin-top:50px;
+    gap:10rem;
+    justify-content: center;
+}
+.scores p{
+    font-size: 20px;
+    font-weight:600;
+}
+#User , #Bot{
+    font-size: 50px;
+}
+.move-msg{
+    /* background-color: pink; */
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+}
+.move-msg p{
+    height:50px;
+    width:300px;
+    background-color: black;
+    color:white;
+    font-size:20px;
+    font-weight:500;
+    border-radius: 30px;
+    text-align: center;
+    padding:15px 20px;
+}
